@@ -29,7 +29,7 @@ namespace OC_LAB03
             int n2 = 1000;
             for (int n1 = 0; n1 < n2; n1++)
             {
-                sum = sum + (b * 2 + c - i);
+                sum = b * 2 + c - i;
             }
             Console.WriteLine($"sum:{sum}");
             result = i + sum;
